@@ -101,7 +101,7 @@ void bookinfo()
     cout << "Display book information"<<endl;
     for(int i=0; i<cont; i++)
     {
-         cout<<"\nid Number of book is: "<<l[i].idno<<endl;
+         cout<<"\nId Number of book is: "<<l[i].idno<<endl;
          cout<<"\nTitle of book is: "<<l[i].bookname<<endl;
          cout<<"\nName of Author is: "<<l[i].authorname<<endl;
          cout<<"\nPrice of book is: "<<l[i].price<<endl;
@@ -119,7 +119,7 @@ void authorname()
         {
             if(a==(l[i].authorname))
             {
-                 cout<<"\n id Number of book is: "<<l[i].idno<<endl;
+                 cout<<"\nId Number of book is: "<<l[i].idno<<endl;
          cout<<"\nTitle of book is: "<<l[i].bookname<<endl;
          cout<<"\nName of Author is: "<<l[i].authorname<<endl;
          cout<<"\nPrice of book is: "<<l[i].price<<endl;
@@ -137,7 +137,7 @@ void bookname()
         {
             if(a==(l[i].bookname))
             {
-                 cout<<"\n id Number of book is: "<<l[i].idno<<endl;
+         cout<<"\nId Number of book is: "<<l[i].idno<<endl;
          cout<<"\nTitle of book is: "<<l[i].bookname<<endl;
          cout<<"\nName of Author is: "<<l[i].authorname<<endl;
          cout<<"\nPrice of book is: "<<l[i].price<<endl;
@@ -160,7 +160,7 @@ void idnoo()
         {
             if(a == (l[i].idno))
             {
-         cout<<"\n id Number of book is: "<<l[i].idno<<endl;
+         cout<<"\nId Number of book is: "<<l[i].idno<<endl;
          cout<<"\nTitle of book is: "<<l[i].bookname<<endl;
          cout<<"\nName of Author is: "<<l[i].authorname<<endl;
          cout<<"\nPrice of book is: "<<l[i].price<<endl;
